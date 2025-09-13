@@ -1,0 +1,14 @@
+artifact_uri: file:///home/mr-behdadi/PROJECT/ICE/notebooks/mlruns/159165391800953595/7a9e5c54bcd641cd9023ede5366a1311/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '159165391800953595'
+lifecycle_stage: active
+run_id: 7a9e5c54bcd641cd9023ede5366a1311
+run_name: delightful-lamb-325
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757787888613
+status: 1
+tags: []
+user_id: mr-behdadi
