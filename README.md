@@ -180,10 +180,29 @@ We track several metrics to measure the efficiency and effectiveness of our reco
 
 These metrics were chosen to provide a comprehensive view of the model's performance, balancing accuracy, efficiency, and business value. By tracking these metrics, we can identify areas for improvement and ensure the model meets both technical and business requirements.
 
+## 📱 Streamlit Dashboard
+
+The system includes an interactive web dashboard for easy model testing and analysis:
+
+```bash
+streamlit run streamlit_dlrm_app.py
+```
+
+**Dashboard Features:**
+- **🎯 Personalized Recommendations**: Get book recommendations for any user with real-time scoring
+- **🧪 Model Testing**: Test prediction accuracy against actual user ratings with visual comparison
+- **📊 Performance Analysis**: Monitor model metrics, feature distributions, and recommendation quality
+- **🔍 Interactive Exploration**: Search users, filter books, and analyze prediction patterns
+- **📈 Real-time Visualization**: Charts and graphs showing model performance and data insights
+
+The dashboard provides a user-friendly interface to interact with the DLRM model without coding, making it easy to evaluate recommendations and understand model behavior.
+
 ## Project Structure
 
 - `dlrm_book_recommender.py`: Data preprocessing and feature engineering
 - `dlrm_inference.py`: Model inference and recommendation generation
+- `streamlit_dlrm_app.py`: Interactive web dashboard for model testing and analysis
+- `train_dlrm_books.py`: Model training script with DLRM implementation
 - `notebooks/01_data_exploration_and_preprocessing.ipynb`: Data exploration and analysis
 - `notebooks/02_feature_engineering_and_model_training.ipynb`: Model training and evaluation
 - `book_dlrm_preprocessing.pkl`: Saved preprocessing information
