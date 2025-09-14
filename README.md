@@ -56,6 +56,8 @@ The loss is implemented in the DLRMTrain wrapper using PyTorch's BCEWithLogitsLo
 
 2. Install dependencies:
    ```bash
+   python -m venv airflow_env
+   source venv/bin/activate 
    pip install -r requirements.txt
    ```
 
